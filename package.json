@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/kang012/muse-reactjs.git",
   "scripts": {
-    "start": "webpack-dev-server index.js"
+    "start": "webpack-dev-server --mode development index.js"
   },
   "author": "kang012",
   "license": "MIT",
@@ -16,6 +16,7 @@
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.44",
     "@babel/preset-react": "^7.0.0-beta.44",
+    "babel-loader": "8.0.0-beta.0",
     "webpack": "^4.5.0",
     "webpack-cli": "^2.0.13",
     "webpack-dev-server": "^3.1.1"
