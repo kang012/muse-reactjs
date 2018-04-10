@@ -1,11 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-class App extends React.Component{
+import App from './components/App'
+class Home extends React.Component{
     
     render(){
-        return <h1> Cyka Blayt</h1>;
+        return ( <div>
+                <App/>
+            </div>
+        );
     }
 }
 
-ReactDOM.render(<App/>, document.getElementById("root"));
+ReactDOM.render(<Home/>, document.getElementById("root"));
+
