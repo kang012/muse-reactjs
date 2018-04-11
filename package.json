@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/kang012/muse-reactjs.git",
   "scripts": {
-    "start": "webpack-dev-server --mode development index.js"
+    "start": "webpack-dev-server --mode development"
   },
   "author": "kang012",
   "license": "MIT",

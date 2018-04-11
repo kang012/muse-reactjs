@@ -1,20 +1,14 @@
-const path = require('path');
-
 const config = {
-  entry: [
-    './index.js',
-  ],
+  entry: ['./index.jsx'],
   output: {
-    path:'/',
+    path: '/',
     filename: 'bundle.js',
- },
+  },
   module: {
     rules: [
       {
-        test: /\.js$/,
-        loaders: [
-          'babel-loader',
-        ],
+        test: /\.jsx$/,
+        loaders: ['babel-loader'],
         exclude: /node_modules/,
       },
     ],
