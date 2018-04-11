@@ -4,8 +4,9 @@ import App from './components/App'
 class Home extends React.Component{
     
     render(){
-        return ( <div>
-                <App/>
+        return (
+            <div>
+               <App/>
             </div>
         );
     }
